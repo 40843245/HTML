@@ -25,6 +25,34 @@ Basic syntax of html and php.
 
 For them, you can visit my other notes and tutorial provided in my notes (also in GitHub).
 
+## basic concept of url
+
+The url many different forms. I will only discuss the url with server name.
+
+One form of the url is (I present it with lex, if you don't know, you can google it)
+      
+        <website protocol> :// <server name>:<port>/<directory and file><pairs of parameters>
+        
+ where
+  
+    <pairs of parameter> := ?<parameter>{&<parameter>}*
+    
+    <parameter> := <key>=<value>
+    
+    <key> := <identifier>
+    
+    <value> := <identifier>
+    
+    <identifier> := <letter>{<digit>|<underscore>}*
+    
+    <letter> := [a-z]|[A-Z]
+    
+    <digit> := [0-9]
+    <underscore> := _
+    
+    
+  
+![image](https://user-images.githubusercontent.com/75050655/227747020-54980aab-d3c3-4490-a0b3-97f03d827c0c.png)
 
 ## Add a new form in html
 To add a new form in html, add a form tag such as  
@@ -75,8 +103,6 @@ For example, suppose I use the GET method in html form.
     
     NOTE that we set the id attribute but NOT set the name attribute.
     
-    
-  
 ### Code example
 
 In website_decoder_1.html
