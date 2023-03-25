@@ -29,7 +29,7 @@ For them, you can visit my other notes and tutorial provided in my notes (also i
 ## Add a new form in html
 To add a new form in html, type 
 
-<form action = "form_handler.php" method = "GET" />
+    <form action = "form_handler.php" method = "GET" />
 
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
 
