@@ -31,10 +31,20 @@ The url many different forms. I will only discuss the url with server name.
 
 One form of the url is (I present it with lex, if you don't know, you can google it)
       
-        <website protocol> :// <server name>:<port>/<directory and file><pairs of parameters>
+        <website protocol> <server name> <port>/<directory and file><pairs of parameters>
         
  where
   
+    <NULL> refers not specified.
+    
+    <website protocol> := {<NULL>|<web protocol name>://}
+    
+    <website protocol> can be either http or https.
+    
+    <port> := : {<NULL>|<port_id>}
+    
+    <port_id> := {<digit>}+
+    
     <pairs of parameter> := ?<parameter>{&<parameter>}*
     
     <parameter> := <key>=<value>
@@ -43,16 +53,55 @@ One form of the url is (I present it with lex, if you don't know, you can google
     
     <value> := <identifier>
     
-    <identifier> := <letter>{<digit>|<underscore>}*
+    <identifier> := <letter>{<digit>|<underscore>|<letter>}*
     
     <letter> := [a-z]|[A-Z]
     
     <digit> := [0-9]
     <underscore> := _
     
+ NOTE that 
+    
+    1) <server name> := "localhost" refers we will connect the localhost server.
+    
+    2) The port_id must be either NOT assigned or assigned with an integer from 0 to power of 2 and 16 then minus (i.e. 2^16-1=65535) 
+    
+    since port_id is an 16-bits integer.
+    
+    If the <port> is NOT assigned, then the server will use the default port number 80.
+    
+    3) Some port_id can NOT be applied since the port number has special meaning.
+    
+    For more details on port number, visit the following website.
+    
+    4) If the <website protocol> is NOT assigned, then the server will use the default protocol -- http.
+    
+    5)There are different effect to add extra space for the key and value of the parameter.
+    
     
   
 ![image](https://user-images.githubusercontent.com/75050655/227747020-54980aab-d3c3-4490-a0b3-97f03d827c0c.png)
+
+See the above figure.
+
+As red underlined.
+
+I use "localhost" as server name.
+
+I use the default port 80.
+
+As green underlined.
+
+The current running file is "website_decoder/website_decoder_1.php"
+
+As purple underlined.
+
+There are 1 key-value pair.
+
+desired_text => 1234
+
+
+
 
 ## Add a new form in html
 To add a new form in html, add a form tag such as  
