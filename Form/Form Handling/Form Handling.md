@@ -10,7 +10,9 @@ Quick guide to understand (NOT discussed in order)
     
     4) The concept of url.
     
-    5) Details and Notice of code.
+    5) GET v.s. POST
+    
+    6) Details and Notice of code.
    
 It may save your time. 
     
@@ -24,7 +26,8 @@ Basic syntax of html and php.
 For them, you can visit my other notes and tutorial provided in my notes (also in GitHub).
 
 
-To fully understand of the form handling, let's dig in a figure.
+## GET v.s. POST
+To fully understand of the difference between GET and POST of form handling, let's dig in a figure.
 
 ![image](https://user-images.githubusercontent.com/75050655/227727831-7e4ecfb3-16ef-458b-bb2d-956537376e71.png)
 
