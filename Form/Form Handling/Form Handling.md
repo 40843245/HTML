@@ -26,6 +26,14 @@ Basic syntax of html and php.
 For them, you can visit my other notes and tutorial provided in my notes (also in GitHub).
 
 
+## Add a new form in html
+To add a new form in html, type 
+
+<form action = "form_handler.php" method = "GET" />
+
+https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
+
+https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/PHP_Form.png
 
 ## GET v.s. POST
 To fully understand of the difference between GET and POST of form handling, let's dig in a figure.
