@@ -108,6 +108,7 @@ When one type 1234 in the inputfield of the above figure.
 
 $_GET['desired_text'] will be 1234
 
+The following figures are from the above code example.
         
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
 
