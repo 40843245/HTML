@@ -26,6 +26,7 @@ Basic syntax of html and php.
 For them, you can visit my other notes and tutorial provided in my notes (also in GitHub).
 
 
+
 ## GET v.s. POST
 To fully understand of the difference between GET and POST of form handling, let's dig in a figure.
 
