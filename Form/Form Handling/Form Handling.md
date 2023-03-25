@@ -47,6 +47,11 @@ NOTE that
     
     2) The value of action and GET attribute are case-sensitive (i.e. "GET" is NOT equivalent to "get").
     
+## Access data from html in php.
+
+Step1: Specify the name attribute.
+
+Step2: According to the method of the form, in php, to access the input data from type $_GET or $_POST etc.
 
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
 
