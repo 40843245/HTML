@@ -27,9 +27,26 @@ For them, you can visit my other notes and tutorial provided in my notes (also i
 
 
 ## Add a new form in html
-To add a new form in html, type 
+To add a new form in html, add a form tag such as  
 
     <form action = "form_handler.php" method = "GET" />
+    
+    where 
+    
+    1) action refers the command and the php file will be executed after triggering the event of submitting the form.
+    
+    In the above example, when the form submits, the form_handler.php will be executed.
+    
+    2) method refers the method the form submits. 
+    
+    In the above example, it will adapt the GET method to submit the form.
+    
+NOTE that
+    
+    1) If the method will NOT specified, it will use the default value -- "GET".
+    
+    2) The value of action and GET attribute are case-sensitive (i.e. "GET" is NOT equivalent to "get").
+    
 
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
 
