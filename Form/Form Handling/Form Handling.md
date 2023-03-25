@@ -53,7 +53,48 @@ Step1: Specify the name attribute.
 
 Step2: According to the method of the form, in php, to access the input data from type $_GET or $_POST etc.
 
+NOTE that
+
+<b>The index of php in array must respond to the value of the name attribute in html tag.</b>
+
+For example, suppose I use the GET method in html form.
+
+    The value of a tag <input name="desired_text"> in php file will be stored in $_GET["desired_text"]
+    
+    $_GET["desired_texts"] will NOT access the value of a tag <input name="desired_text">.
+    
+  
+### Code example
+
+In website_decoder_1.html
+
+    <!DOCTYPE html5>
+
+    <html>
+        <form action="website_decoder_1.php">
+        <label>Desired Text:</label>
+        <input name="desired_text">
+
+     </html>
+
+In website_decoder_1.php
+
+    <?php
+        echo "original text:";
+        echo $_GET['desired_text'];
+    ?>
+        
+        
+When the user run the website_decoder_1.html (in my notebook, it can be done by typing "http://localhost/website_decoder/website_decoder_1.html" in url box.)
+
+![image](https://user-images.githubusercontent.com/75050655/227746707-aec91e1f-0881-4ea1-a25f-fa5ea42f6fc1.png)
+
+        
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
+
+https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/PHP_Form2.png
+
+For more details, see the figure in GET v.s. POST section or visit the website in ref in the following section.
 
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/PHP_Form.png
 
@@ -62,4 +103,6 @@ To fully understand of the difference between GET and POST of form handling, let
 
 ![image](https://user-images.githubusercontent.com/75050655/227727831-7e4ecfb3-16ef-458b-bb2d-956537376e71.png)
 
+### Ref
 
+https://www.w3schools.com/tags/ref_httpmethods.asp
