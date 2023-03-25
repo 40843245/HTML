@@ -87,7 +87,13 @@ In website_decoder_1.php
         
 When the user run the website_decoder_1.html (in my notebook, it can be done by typing "http://localhost/website_decoder/website_decoder_1.html" in url box.)
 
+One will see the following figure.
+
 ![image](https://user-images.githubusercontent.com/75050655/227746707-aec91e1f-0881-4ea1-a25f-fa5ea42f6fc1.png)
+
+When one type 1234 in the inputfield of the above figure.
+
+$_GET['desired_text'] will be 1234
 
         
 https://github.com/40843245/HTML/blob/main/Form/Form%20Handling/HTML_Form2.png
