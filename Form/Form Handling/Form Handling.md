@@ -55,13 +55,26 @@ Step2: According to the method of the form, in php, to access the input data fro
 
 NOTE that
 
-<b>The index of php in array must respond to the value of the name attribute in html tag.</b>
-
+    1)The key of php in array must respond to the value of the name attribute in html tag.
+    
+    NOT respond to the value of id attribute in html tag.
+    
+    2)If the key can NOT macth to the attributes in html tag. The value of the key will be NULL.
+  
 For example, suppose I use the GET method in html form.
 
     The value of a tag <input name="desired_text"> in php file will be stored in $_GET["desired_text"]
     
     $_GET["desired_texts"] will NOT access the value of a tag <input name="desired_text">.
+    
+For example, suppose I use the GET method in html form.
+
+    For the tag <input id="desired_text">,  
+    
+    $_GET["desired_texts"] will be NULL since there is NO name attribute called "desired_texts". 
+    
+    NOTE that we set the id attribute but NOT set the name attribute.
+    
     
   
 ### Code example
