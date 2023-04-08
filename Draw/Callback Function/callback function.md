@@ -20,6 +20,15 @@ An event callback function func every time before repainting.
 Before repainting, the func will be automatically invoked.
 
 #### NOTE
+
+    1) The method Window.requestAnimationFrame() is 1 shot.
+    
+    You can consider it as disposables. It can be only used once.
+    
+    Thus, to use it many times, don't forget to write the statement Window.requestAnimationFrame() inside the callback function. 
+    
+    More details on the following figure and example given in the following website.
+    
 ![image](https://user-images.githubusercontent.com/75050655/230726016-a78ee95b-b0f0-451f-b369-11649c4945fd.png)
 
 
