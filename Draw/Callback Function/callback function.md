@@ -19,6 +19,10 @@ An event callback function func every time before repainting.
 
 Before repainting, the func will be automatically invoked.
 
+#### NOTE
+![image](https://user-images.githubusercontent.com/75050655/230726016-a78ee95b-b0f0-451f-b369-11649c4945fd.png)
+
+
 #### Ref
 
 MDN Docs:
