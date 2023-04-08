@@ -23,6 +23,10 @@ Before repainting, the func will be automatically invoked.
 ![image](https://user-images.githubusercontent.com/75050655/230726016-a78ee95b-b0f0-451f-b369-11649c4945fd.png)
 
 
+#### Warning
+![image](https://user-images.githubusercontent.com/75050655/230726066-4d297930-999a-49a3-ab65-b29c15c72683.png)
+
+
 #### Ref
 
 MDN Docs:
