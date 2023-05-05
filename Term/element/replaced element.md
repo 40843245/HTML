@@ -17,7 +17,7 @@ Recall about some tags
       Consider the following example.
 
 
-      ![image](https://user-images.githubusercontent.com/75050655/236366333-99e3996a-7069-4637-94b1-43d51974162e.png)
+![image](https://user-images.githubusercontent.com/75050655/236366333-99e3996a-7069-4637-94b1-43d51974162e.png)
 
       
       
