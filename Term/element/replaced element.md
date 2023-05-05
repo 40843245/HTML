@@ -8,7 +8,7 @@ A replaced element is an element whose representation is outside of the scope of
 ## Recall
 Recall about some tags
       
-1. <select>, <optgroup>, and <option>
+### <select>, <optgroup>, and <option>
       
             
             
