@@ -15,7 +15,11 @@ Recall about some tags
       The <optgroup> tag groups one <option> tag or more <option> tags.
       
       Consider the following example.
+      
+      For the html code, look at my code named
+      
 
+The figure illustrates the output of the above HTML code.
 
 ![image](https://user-images.githubusercontent.com/75050655/236366333-99e3996a-7069-4637-94b1-43d51974162e.png)
 
