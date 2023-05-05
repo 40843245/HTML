@@ -8,10 +8,9 @@ A replaced element is an element whose representation is outside of the scope of
 ## Recall
 Recall about some tags
       
-### <select>, <optgroup>, and <option>
-      
-            
-            
+
+
+            <select>, <optgroup>, and <option>          
             The <select> tag handles its internal HTML to a selection list. 
             User can select one option or more options among all options in the <select> tag.
             While a <option> tag create an option.
@@ -50,10 +49,12 @@ First, let's focus the piece of code.
             
 In the above piece of code, there are 14 options. The first option which its value is ".csv" and will display the text "Excel (.csv)".
 
-The <select> tag The 14 options are 
-
-
+The <select> tag handles the 14 options.
       
+Thus, <option> can be treated as replaced elements in some cases.
       
+For more details, visit the MDN docs which are listed in the ref section.
       
 ## Ref
+      
+https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element
