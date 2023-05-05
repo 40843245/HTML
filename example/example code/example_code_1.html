@@ -1,0 +1,38 @@
+<!DOCTYPE html5>
+<head>
+    <style>
+        .DEPRECATED
+        {
+            color:red;
+        };
+    </style>
+</head>
+<html>
+    <h1>File Exporter</h1>
+    <form action="Excel/excel_writer_1.php" method="POST">
+        <label for="raw_text_content">Content to write:</label>
+        <br>
+        <textarea id="raw_text_content" name="raw_text_content" rows="10" cols="30"> </textarea>
+        <br>
+        <label for="ext">File Ext:</label>
+        <select name="ext" id="ext">
+            <option value=".csv">Excel (.csv)</option>
+            <option value=".xls">Excel (.xls)</option>
+            <option value=".xlsx">Excel (.xlsx)</option>
+            <option value=".txt">Text (.txt)</option>
+            <option value=".html">HTML (.html)</option>
+            <option value=".xml">XML (.xml)</option>
+            <option value=".doc">Word (.doc)</option>
+            <option value=".docx">Word (.docx)</option>
+            <option value=".dot">Word (.dot)</option>
+            <option value=".pdf">PDF (.pdf) (Only Output)</option>
+            <option value=".accdb" class="DEPRECATED">Microsoft Access (.accdb) (Deprecated NOW)</option>
+            <option value=".ppt" class="DEPRECATED">PowerPoint (.ppt) (Deprecated NOW , always Unavailable)</option>
+            <option value=".pptx" class="DEPRECATED">PowerPoint (.pptx) (Deprecated NOW , always Unavailable)</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</html>
+<body>
+
+</body>
