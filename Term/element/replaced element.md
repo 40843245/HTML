@@ -8,11 +8,14 @@ A replaced element is an element whose representation is outside of the scope of
 ## Recall
 Recall about some tags
       
-      1. <select>, <optgroup>, and <option>
-      The <select> tag handles its internal HTML to a selection list. 
-      User can select one option or more options among all options in the <select> tag.
-      While a <option> tag create an option.
-      The <optgroup> tag groups one <option> tag or more <option> tags.
+1. <select>, <optgroup>, and <option>
+      
+            
+            
+            The <select> tag handles its internal HTML to a selection list. 
+            User can select one option or more options among all options in the <select> tag.
+            While a <option> tag create an option.
+            The <optgroup> tag groups one <option> tag or more <option> tags.
       
 Consider the following example.
       
@@ -45,9 +48,11 @@ First, let's focus the piece of code.
                 <option value=".pptx" class="DEPRECATED">PowerPoint (.pptx) (Deprecated NOW , always Unavailable)</option>
             </select>
             
-In the above piece of code, there are 14 options. 
+In the above piece of code, there are 14 options. The first option which its value is ".csv" and will display the text "Excel (.csv)".
 
-The first option which its value is ".csv" and will display the text "Excel (.csv)".
+The <select> tag The 14 options are 
+
+
       
       
       
