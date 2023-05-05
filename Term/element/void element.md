@@ -6,6 +6,6 @@ A void element only have a start tag, it can NOT have an end tag.
 
 Such as 
 
-<input type='text'>
+    <input type='text'>
 
 
