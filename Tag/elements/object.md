@@ -9,10 +9,13 @@ Consider the following example.
 
 For the code, visit the website in GitHub.
 
+https://github.com/40843245/HTML/blob/main/example/example%20code/example_code_3.html
 
 ![image](https://user-images.githubusercontent.com/75050655/236372200-070f81a7-32a5-454b-824c-0dce78ef14d9.png)
 
   
 ## Ref
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
+
+
   
