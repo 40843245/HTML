@@ -89,6 +89,8 @@ If it is NOT specified, it will redirect the mainpage of the current running ser
 
 For more details, see my notes about Docker in GitHub which available at.
 
+https://github.com/40843245/Docker/blob/main/basic%20knowledge/phpmyadmin/phpmyadmin.md
+
 ### Fragment
 
 It determines which part of the webpage will be redirected to.
