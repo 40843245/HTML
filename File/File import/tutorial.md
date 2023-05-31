@@ -19,6 +19,7 @@ Notice that in the script tag, the file consider to be a JS file. Or exactly to 
   <script src="timesheet.min.js"></script>
   
 That's the reason why it is NOT valid to import a css file with such above tag.
+
 ![image](https://github.com/40843245/HTML/assets/75050655/0b974bd5-0908-41db-acb5-19cdb73697e5)
 
 For more details, see the reply in the following section.
